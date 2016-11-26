@@ -109,7 +109,7 @@ https://github.com/chokkoyamada/github-handson
 
 ---
 
-* "Fork"を押します。
+* "Fork"を押します。(注 mobileにはありません)
 
 <img width="500" alt="_2016-11-26_11_28_29" src="https://cloud.githubusercontent.com/assets/843192/20637534/0236925c-b3ce-11e6-86a9-093489fa9a56.png">
 
