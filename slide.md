@@ -51,7 +51,7 @@ https://chokkoyamada.github.io/github-handson/
 
 ### Pull Requestを体験してみよう(20分)
 
-GitHubのシステムの最も肝の部分であるPull Requestについて実際に体験してみます
+GitHubのシステムの最もキモの部分であるPull Requestについて実際に体験してみます
 
 ### その他のGitHubの機能(10分)
 
