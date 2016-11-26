@@ -219,3 +219,38 @@ class: center, middle
 * 自動テストとの連携
 
 考察
+
+---
+
+# Conflict（競合）の解消
+
+こんなとき・・・
+
+<img width="500" alt="2016-11-26 15 03 43" src="https://cloud.githubusercontent.com/assets/843192/20638464/bd1a172a-b3eb-11e6-9b50-5135f34b7468.png">
+
+---
+
+# コマンドラインで解決
+
+自分のローカル環境にcloneする
+```git
+git clone git://github.com/[YOUR_ACCOUNT_ID]/github-handson.git
+```
+
+対象のレポジトリとブランチをpullする
+```git
+git checkout -b ookubojin-gh-pages gh-pages
+git pull git://github.com/ookubojin/github-handson.git gh-pages
+```
+
+おおもとのレポジトリの最新版を持ってきて反映
+```git
+git remote add upstream git://github.com/chokkoyamada/github-handson.git
+git pull --rebase upstream gh-pages
+```
+
+反映した更新をpushする
+```git
+git push origin gh-pages
+```
+
