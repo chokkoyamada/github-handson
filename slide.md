@@ -253,4 +253,8 @@ git pull --rebase upstream gh-pages
 ```git
 git push origin gh-pages
 ```
+---
+
+# ありがとうございました。大久保仁です。
+
 
